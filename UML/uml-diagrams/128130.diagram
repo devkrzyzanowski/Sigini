@@ -1,0 +1,77 @@
+format 216
+
+classcanvas 128002 class_ref 128130 // user
+  simpleclassdiagramsettings end
+  xyz 71.549 338.474 2000
+end
+classcanvas 128130 class_ref 128258 // sigma_as227
+  simpleclassdiagramsettings end
+  xyz 750.765 276.148 2000
+end
+subject 128258 "Sigini"
+  xyzwh 149.024 120.02 2000 560 534
+usecasecanvas 128642 usecase_ref 128386 // connect wi-fi
+  xyzwh 170.738 195.407 3005 64 32 label_xy 172 226
+end
+usecasecanvas 128770 usecase_ref 128514 // verify ssid
+  xyzwh 173.388 128.102 3005 64 32 label_xy 180 160
+end
+usecasecanvas 128898 usecase_ref 128642 // verify password
+  xyzwh 346.465 144.553 3005 64 32 label_xy 339 176
+end
+usecasecanvas 129026 usecase_ref 128770 // dispay login error
+  xyzwh 343.37 227.827 3005 64 32 label_xy 333 259
+end
+usecasecanvas 130306 usecase_ref 128898 // make save
+  xyzwh 602.08 210.76 3005 64 32 label_xy 608 242
+end
+usecasecanvas 130434 usecase_ref 129026 // load from save
+  xyzwh 619 394.6 3005 64 32 label_xy 616 426
+end
+usecasecanvas 130562 usecase_ref 129154 // generate message
+  xyzwh 639.2 456.72 3005 64 32 label_xy 627 488
+end
+usecasecanvas 130690 usecase_ref 129282 // send message
+  xyzwh 613.44 272.88 3005 64 32 label_xy 612 304
+end
+usecasecanvas 130818 usecase_ref 129410 // change properties
+  xyzwh 643.24 534.24 3005 64 32 label_xy 632 565
+end
+usecasecanvas 130946 usecase_ref 129538 // set up line
+  xyzwh 170.08 401.08 3005 128 115 label_xy 210 412
+end
+usecasecanvas 131074 usecase_ref 129666 // set text
+  xyzwh 378.52 465.72 3005 64 32 label_xy 391 473
+end
+usecasecanvas 131202 usecase_ref 129794 // set font
+  xyzwh 368.76 518.96 3010 64 32 label_xy 381 526
+end
+usecasecanvas 131330 usecase_ref 129922 // set size
+  xyzwh 307.92 562.96 3005 64 32 label_xy 321 570
+end
+usecasecanvas 131458 usecase_ref 130050 // set move method
+  xyzwh 173.88 592.32 3005 115 38 label_xy 190 602
+end
+line 129154 ---- decenter_begin 328
+  from ref 128002 z 3006 to ref 128642
+line 129282 ----
+  from ref 128642 z 3006 to ref 128770
+simplerelationcanvas 130050 simplerelation_ref 128258
+  from ref 129026 z 3006 stereotype "<<extend>>" xyz 255 226 3000 to ref 128642
+end
+simplerelationcanvas 130178 simplerelation_ref 128386
+  from ref 128642 z 3006 stereotype "<<include>>" xyz 256 182 3000 to ref 128898
+end
+simplerelationcanvas 131586 simplerelation_ref 128514
+  from ref 131074 z 3006 stereotype "<<extend>>" xyz 305 469.5 3000 to ref 130946
+end
+simplerelationcanvas 131714 simplerelation_ref 128642
+  from ref 131202 z 3011 stereotype "<<extend>>" xyz 300 502.5 3000 to ref 130946
+end
+simplerelationcanvas 131842 simplerelation_ref 128770
+  from ref 131330 z 3006 stereotype "<<extend>>" xyz 271.5 537.5 3000 to ref 130946
+end
+simplerelationcanvas 131970 simplerelation_ref 128898
+  from ref 131458 z 3006 stereotype "<<extend>>" xyz 198 551 3000 to ref 130946
+end
+end
