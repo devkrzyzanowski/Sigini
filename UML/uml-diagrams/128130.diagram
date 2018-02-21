@@ -2,76 +2,115 @@ format 216
 
 classcanvas 128002 class_ref 128130 // user
   simpleclassdiagramsettings end
-  xyz 71.549 338.474 2000
+  xyz 71.199 345.734 2000
 end
 classcanvas 128130 class_ref 128258 // sigma_as227
   simpleclassdiagramsettings end
-  xyz 750.765 276.148 2000
+  xyz 679.265 427.408 2000
 end
 subject 128258 "Sigini"
-  xyzwh 149.024 120.02 2000 560 534
-usecasecanvas 128642 usecase_ref 128386 // connect wi-fi
-  xyzwh 170.738 195.407 3005 64 32 label_xy 172 226
+  xyzwh 115.354 117.31 2000 547 449
+usecasecanvas 128642 usecase_ref 128386 // connect to wi-fi
+  xyzwh 142.148 249.217 3005 104 52 label_xy 154 266
 end
 usecasecanvas 128770 usecase_ref 128514 // verify ssid
-  xyzwh 173.388 128.102 3005 64 32 label_xy 180 160
+  xyzwh 138.958 139.812 3005 78 45 label_xy 151 151
 end
 usecasecanvas 128898 usecase_ref 128642 // verify password
-  xyzwh 346.465 144.553 3005 64 32 label_xy 339 176
+  xyzwh 231.855 139.553 3005 118 41 label_xy 251 150
 end
-usecasecanvas 129026 usecase_ref 128770 // dispay login error
-  xyzwh 343.37 227.827 3005 64 32 label_xy 333 259
-end
-usecasecanvas 130306 usecase_ref 128898 // make save
-  xyzwh 602.08 210.76 3005 64 32 label_xy 608 242
-end
-usecasecanvas 130434 usecase_ref 129026 // load from save
-  xyzwh 619 394.6 3005 64 32 label_xy 616 426
-end
-usecasecanvas 130562 usecase_ref 129154 // generate message
-  xyzwh 639.2 456.72 3005 64 32 label_xy 627 488
-end
-usecasecanvas 130690 usecase_ref 129282 // send message
-  xyzwh 613.44 272.88 3005 64 32 label_xy 612 304
-end
-usecasecanvas 130818 usecase_ref 129410 // change properties
-  xyzwh 643.24 534.24 3005 64 32 label_xy 632 565
+usecasecanvas 129026 usecase_ref 128770 // display login error
+  xyzwh 294.56 188.817 3005 126 43 label_xy 314 202
 end
 usecasecanvas 130946 usecase_ref 129538 // set up line
-  xyzwh 170.08 401.08 3005 128 115 label_xy 210 412
+  xyzwh 317.36 252.02 3005 157 148 label_xy 372 263
 end
 usecasecanvas 131074 usecase_ref 129666 // set text
-  xyzwh 378.52 465.72 3005 64 32 label_xy 391 473
+  xyzwh 472.66 135.68 3005 64 32 label_xy 486 142
 end
 usecasecanvas 131202 usecase_ref 129794 // set font
-  xyzwh 368.76 518.96 3010 64 32 label_xy 381 526
+  xyzwh 540.16 169.2 3010 64 32 label_xy 553 175
 end
 usecasecanvas 131330 usecase_ref 129922 // set size
-  xyzwh 307.92 562.96 3005 64 32 label_xy 321 570
+  xyzwh 579.56 235.65 3005 64 32 label_xy 594 243
 end
 usecasecanvas 131458 usecase_ref 130050 // set move method
-  xyzwh 173.88 592.32 3005 115 38 label_xy 190 602
+  xyzwh 537.89 289.75 3005 115 38 label_xy 554 299
 end
-line 129154 ---- decenter_begin 328
-  from ref 128002 z 3006 to ref 128642
-line 129282 ----
-  from ref 128642 z 3006 to ref 128770
+usecasecanvas 132994 usecase_ref 130178 // save all lines to properties
+  xyzwh 156.1 331.42 3005 150 43 label_xy 165 344
+end
+usecasecanvas 133378 usecase_ref 130306 // load all lines from properties
+  xyzwh 148.64 411.72 3005 157 43 label_xy 160 424
+end
+usecasecanvas 134018 usecase_ref 129282 // send message
+  xyzwh 138.56 485.86 3005 104 69 label_xy 157 509
+end
+usecasecanvas 134786 usecase_ref 130434 // generate Hex code
+  xyzwh 360.8 429.2 3005 124 60 label_xy 377 449
+end
+note 135554 "application read all lines and create hex message"
+  xyzwh 308.32 500.68 2005 153 61
+note 135938 "sending hex message to sigma"
+  xyzwh 521.34 495.3 2005 122 65
+usecasecanvas 136194 usecase_ref 130562 // set change speed
+  xyzwh 537.98 351.04 3005 108 36 label_xy 550 360
+end
 simplerelationcanvas 130050 simplerelation_ref 128258
-  from ref 129026 z 3006 stereotype "<<extend>>" xyz 255 226 3000 to ref 128642
+  decenter_end 287
+  from ref 129026 z 3006 stereotype "<<extend>>" xyz 240 241.5 3000 to ref 128642
 end
 simplerelationcanvas 130178 simplerelation_ref 128386
-  from ref 128642 z 3006 stereotype "<<include>>" xyz 256 182 3000 to ref 128898
+  from ref 128642 z 3006 stereotype "<<include>>" xyz 209.5 211.5 3000 to ref 128898
 end
 simplerelationcanvas 131586 simplerelation_ref 128514
-  from ref 131074 z 3006 stereotype "<<extend>>" xyz 305 469.5 3000 to ref 130946
+  from ref 131074 z 3006 stereotype "<<extend>>" xyz 435 207 3000 to ref 130946
 end
 simplerelationcanvas 131714 simplerelation_ref 128642
-  from ref 131202 z 3011 stereotype "<<extend>>" xyz 300 502.5 3000 to ref 130946
+  decenter_end 57
+  from ref 131202 z 3011 stereotype "<<extend>>" xyz 488 226 3000 to ref 130946
 end
 simplerelationcanvas 131842 simplerelation_ref 128770
-  from ref 131330 z 3006 stereotype "<<extend>>" xyz 271.5 537.5 3000 to ref 130946
+  decenter_begin 456
+  from ref 131330 z 3006 stereotype "<<extend>>" xyz 499 263 3000 to ref 130946
 end
 simplerelationcanvas 131970 simplerelation_ref 128898
-  from ref 131458 z 3006 stereotype "<<extend>>" xyz 198 551 3000 to ref 130946
+  decenter_begin 439
+  from ref 131458 z 3006 stereotype "<<extend>>" xyz 472.5 307 3000 to ref 130946
 end
+simplerelationcanvas 132482 simplerelation_ref 129026
+  from ref 128642 z 3006 to point 182.6 212.6
+  line 135170 z 3006 stereotype "<<include>>" xyz 149 198 3000 to ref 128770
+end
+line 132866 --->
+  from ref 128002 z 3006 to ref 128642
+line 133250 ---> decenter_end 513
+  from ref 128002 z 3006 to ref 132994
+line 133506 ---> decenter_end 52
+  from ref 128002 z 3006 to ref 133378
+simplerelationcanvas 133762 simplerelation_ref 129282
+  decenter_begin 356
+  from ref 130946 z 3006 stereotype "<<extend>>" xyz 253.5 306 3000 to ref 132994
+end
+simplerelationcanvas 133890 simplerelation_ref 129410
+  decenter_begin 773
+  decenter_end 936
+  from ref 133378 z 3006 stereotype "<<include>>" xyz 240 392 3000 to ref 130946
+end
+simplerelationcanvas 134402 simplerelation_ref 129538
+  from ref 134018 z 3006 stereotype "<<include>>" xyz 176 468.5 3000 to ref 133378
+end
+line 134658 ---> decenter_end 79
+  from ref 128002 z 3006 to ref 134018
+line 134914 ---> decenter_end 661
+  from ref 134018 z 3006 to ref 134786
+line 135042 --->
+  from ref 134786 z 3006 to ref 128130
+simplerelationcanvas 136322 simplerelation_ref 129666
+  from ref 136194 z 3006 stereotype "<<extend>>" xyz 473 348.5 3000 to ref 130946
+end
+line 135810 -_-_
+  from ref 135554 z 3007 to ref 134914
+line 136066 -_-_
+  from ref 135938 z 3007 to ref 135042
 end
