@@ -1,0 +1,12 @@
+window_sizes 2560 1027 600 1955 875 104
+
+diagrams
+  active  usecasediagram_ref 128130 // use-case diagram
+    1951 871 138 A4 24 0
+end
+show_stereotypes
+selected usecase_ref 128770 // display login error
+open
+  usecase_ref 128770 // display login error
+end
+end
