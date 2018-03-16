@@ -1,0 +1,47 @@
+
+uiAtlas.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+background
+  rotate: false
+  xy: 1, 616
+  size: 1760, 3129
+  orig: 1760, 3129
+  offset: 0, 0
+  index: -1
+background2
+  rotate: false
+  xy: 1763, 616
+  size: 1760, 3129
+  orig: 1760, 3129
+  offset: 0, 0
+  index: -1
+rect5575
+  rotate: false
+  xy: 1, 101
+  size: 1760, 513
+  orig: 1760, 513
+  offset: 0, 0
+  index: -1
+loadRing3
+  rotate: false
+  xy: 3525, 3605
+  size: 142, 140
+  orig: 142, 140
+  offset: 0, 0
+  index: -1
+loadRing2
+  rotate: false
+  xy: 1, 1
+  size: 99, 98
+  orig: 99, 98
+  offset: 0, 0
+  index: -1
+loadRing1
+  rotate: false
+  xy: 1763, 548
+  size: 66, 66
+  orig: 66, 66
+  offset: 0, 0
+  index: -1

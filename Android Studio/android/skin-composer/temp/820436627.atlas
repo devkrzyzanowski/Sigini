@@ -1,0 +1,160 @@
+
+820436627.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fnt1
+  rotate: false
+  xy: 1, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+
+8204366272.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fnt1small
+  rotate: false
+  xy: 1, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+
+8204366273.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fnt2
+  rotate: false
+  xy: 1, 1
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+
+8204366274.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+29patch
+  rotate: false
+  xy: 515, 526
+  size: 39, 39
+  split: 8, 7, 7, 7
+  pad: 7, 7, 7, 7
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+discWhite
+  rotate: false
+  xy: 1, 19
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+exit
+  rotate: false
+  xy: 67, 53
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+eyeWhite
+  rotate: false
+  xy: 1, 85
+  size: 64, 32
+  orig: 64, 32
+  offset: 0, 0
+  index: -1
+search
+  rotate: false
+  xy: 1, 119
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+searchWhite
+  rotate: false
+  xy: 515, 633
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+settings
+  rotate: false
+  xy: 515, 567
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+settingsWhite
+  rotate: false
+  xy: 581, 633
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+trash
+  rotate: false
+  xy: 67, 119
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+19patch
+  rotate: false
+  xy: 133, 144
+  size: 39, 39
+  split: 7, 7, 7, 7
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+cursor
+  rotate: false
+  xy: 133, 86
+  size: 2, 56
+  orig: 2, 56
+  offset: 0, 0
+  index: -1
+fnt2.png
+  rotate: false
+  xy: 1, 185
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+grey
+  rotate: false
+  xy: 581, 615
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+khaki
+  rotate: false
+  xy: 647, 681
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+red
+  rotate: false
+  xy: 1, 1
+  size: 16, 16
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+textField
+  rotate: false
+  xy: 515, 424
+  size: 10, 100
+  orig: 10, 100
+  offset: 0, 0
+  index: -1

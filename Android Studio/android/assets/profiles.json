@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "profile_1": {
+      "properties": {
+        "_maxHealth": "65"
+      },
+      "_name": "enemyName_1"
+    },
+    "profile_2": {
+      "properties": {
+        "_maxHealth": "35"
+      },
+      "_name": "enemyName_2"
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	fnt1: {
+		file: fnt1.fnt
+	}
+	fnt1small: {
+		file: fnt1small.fnt
+	}
+	fnt2png: {
+		file: fnt2.png.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	grey: {
+		r: 0.18039216
+		g: 0.21960784
+		b: 0.1882353
+		a: 1
+	}
+	Khaki: {
+		r: 0.9019608
+		g: 0.85882354
+		b: 0.7882353
+		a: 1
+	}
+	red: {
+		r: 0.77254903
+		g: 0.19607843
+		b: 0.06666667
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: red
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: 19patch
+		checkboxOff: 29patch
+		font: fnt2png
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		imageUp: search
+		up: 19patch
+		down: 29patch
+	}
+	search: {
+		imageUp: searchWhite
+		up: 29patch
+		down: 19patch
+	}
+	eye: {
+		imageUp: eyeWhite
+		up: 29patch
+		down: 19patch
+	}
+	trash: {
+		imageUp: trash
+		up: 29patch
+		down: 19patch
+	}
+	settings: {
+		imageUp: settingsWhite
+		up: 29patch
+		down: 19patch
+	}
+	disc: {
+		imageUp: discWhite
+		up: 29patch
+		down: 19patch
+	}
+	exit: {
+		imageUp: exit
+		up: 29patch
+		down: 19patch
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: fnt2png
+		fontColor: white
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: fnt2png
+		fontColorSelected: white
+		fontColorUnselected: Khaki
+		selection: 29patch
+		background: 19patch
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: grey
+		knob: red
+		knobBefore: red
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		background: grey
+		corner: textField
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: fnt2png
+		fontColor: white
+		background: 29patch
+		scrollStyle: default
+		listStyle: default
+	}
+	red: {
+		font: fnt2png
+		fontColor: white
+		background: red
+		scrollStyle: default
+		listStyle: default
+		backgroundDisabled: red
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		background: grey
+		knob: red
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+	default-horizontal: {
+		handle: grey
+	}
+	default-vertical: {
+		handle: grey
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: fnt2png
+		up: 19patch
+		down: 29patch
+	}
+	default2: {
+		font: fnt2png
+		up: textField
+		down: red
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: fnt2png
+		fontColor: white
+		background: 29patch
+		focusedBackground: 19patch
+		cursor: cursor
+		selection: 29patch
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+	default: {
+		plus: 29patch
+		minus: 19patch
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: 29patch
+		titleFont: fnt1small
+		titleFontColor: Khaki
+	}
+}
+}
